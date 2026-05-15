@@ -23,7 +23,7 @@ nav {
 .nav__container {
     width: 100%;
     max-width: 1200px;
-    padding: 0 24px;
+    padding: 0px 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,12 +54,11 @@ li {
 
 .nav__logo--img {
     height: 40px;
-    width: 40px;
-    margin: 0px 12px 0px 0px;
+    width: 40px;;
 }
 
 .nav__logo--title {
-    margin: 0px 24px 0px 0px;
+    margin: 0px 24px;
     padding: 0px 0px 4px;
     font-size: 24px;
     font-weight: bold;
