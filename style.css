@@ -10,7 +10,7 @@ body {
 
 nav {
    display: flex;
-   padding-top: 32px; 
+   padding-top: 32px;
 }
 
 .nav__row {
@@ -115,6 +115,11 @@ li {
     text-align: center;
     border: none;
     color: #6415ff;
+    
+}
+
+.btn__menu--svg {
+    display: none;
 }
 
 .modal {
@@ -125,9 +130,15 @@ li {
     right: 0;
     bottom: 0;
     z-index: 100;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
+    display: none;
+    
+}
+
+.menu--open .modal {
+    display: flex;
 }
 
 .modal__links {
@@ -258,7 +269,7 @@ header .row {
   .nav__links {
     display: none;
   }
-  .btn__menu {
+  .btn__menu--svg {
     display: block;
   }
 }
