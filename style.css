@@ -331,6 +331,18 @@ FEATURES
     width: calc(100% /3);
 }
 
+.feature__img--wrapper {
+    display: flex;
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+    border-radius: 500px;
+}
+
+.feature__img {
+    width: 24px;
+    height: 24px;
+}
+
 .service__description {
     display: flex;
     flex-direction: column;
