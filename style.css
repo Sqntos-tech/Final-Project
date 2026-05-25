@@ -450,23 +450,31 @@ STEPS
 
 #steps .steps__img--wrapper {
     width: 50%;
+    height: auto;
 }
+
 
 #steps .section__title {
     margin-top: 1rem;
     font-size: 3rem;
+    font-weight: 900;
+    line-height: 1;
 }
+
 
 .steps__list--number {
     font-size: 2.25rem;
     font-weight: 600;
     line-height: 1;
+    margin-right: 24px;
     color: rgb(203 213 224);
 }
+
 
 .steps__sections {
     margin-top: 3rem;
 }
+
 
 .steps__section {
     display: flex;
@@ -474,11 +482,13 @@ STEPS
     
 }
 
+
 .steps__list--header {
     font-size: 1.25rem;
     font-weight: 600;
     line-height: 1;
 }
+
 
 .steps__list--para {
     margin-top: 0.75rem;
