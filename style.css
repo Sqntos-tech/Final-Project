@@ -515,14 +515,35 @@ VALUES
     width: 50%;
 }
 
+.values__section {
+    max-width: none;
+    flex-direction: row;
+    display: flex;
+}
+
 
 .dollar-icon {
     background-color: #9ae6b4;
-    border-radius: 999px;
-    padding: 0.5rem;
     color: rgb(39 103 73);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+
+.suitcase-icon {
+    background-color: rgb(254 178 178);
+    color: rgb(155 44 44);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
