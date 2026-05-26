@@ -516,9 +516,14 @@ VALUES
 }
 
 .values__section {
-    max-width: none;
-    flex-direction: row;
     display: flex;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+
+.value {
+    width: 50%;
 }
 
 
@@ -526,18 +531,24 @@ VALUES
     display: flex;
     align-items: center;
     gap: 12px;
-    margin-bottom: 12px;
 }
 
 
-.value__icon {
-    border-radius: 50%;
+.value__description {
+    margin-top: 16px;
+}
+
+
+.dollar-icon
+.suitcase-icon {
     width: 36px;
     height: 36px;
     min-width: 36px;
+    border-radius: 50%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    padding: 0;
     flex-shrink: 0;
 }
 
