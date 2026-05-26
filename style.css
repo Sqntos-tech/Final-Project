@@ -522,6 +522,14 @@ VALUES
 }
 
 
+.value__title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+
 .value__icon {
     border-radius: 50%;
     width: 36px;
@@ -530,7 +538,7 @@ VALUES
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
+    flex-shrink: 0;
 }
 
 .dollar-icon {
