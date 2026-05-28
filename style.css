@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: 'Inter', sans-serif;
   color: #243E63;
 }
@@ -81,6 +80,7 @@ img {
     font-weight: 800;
     color: #243E63;
 }
+
 
 /* NAV LINKS */
 .nav__link {
@@ -305,7 +305,7 @@ header .nav__row {
 }
 
 .c__logo {
-    padding-right: 8px;
+    padding-right: 8rem;
     margin: 1px;
     filter: grayscale(100%);
     opacity: 0.5;
@@ -337,6 +337,8 @@ FEATURES
 #features .section__para {
   text-align: center;
   max-width: 576px;
+  font-size: 1.125rem;
+  line-height: 1.625;
 }
 
 .section__tag {
@@ -425,8 +427,9 @@ QUALITY
 }
 
 #quality .section__para {
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 1.125rem;
+    line-height: 1.625em;
 }
 
 #quality .btn {
@@ -609,9 +612,43 @@ VALUES
 }
 
 
+/* 
+
+PRICING
+
+*/
 
 
+#pricing .section__tag {
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-size: medium;
+}
 
+
+#pricing .section__title {
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+}
+
+
+#pricing .section__para {
+    margin-top: 2rem;
+    max-width: 576px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: rgb(124 139 161);
+}
+
+
+.pricing__description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
 
 
