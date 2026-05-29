@@ -635,11 +635,12 @@ PRICING
 
 
 #pricing .section__para {
-    margin-top: 2rem;
+    margin-top: 1rem;
     max-width: 576px;
     text-align: center;
     font-weight: 500;
     font-size: 1.125rem;
+    line-height: 1.625em;
     color: rgb(124 139 161);
 }
 
@@ -648,7 +649,11 @@ PRICING
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
 }
+
+
+
 
 
 
