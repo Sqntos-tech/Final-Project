@@ -681,7 +681,22 @@ PRICING
     position: relative;
     box-sizing: border-box;
     border-width: 1px;
-    border-style: solid;
+    border-top: 2px solid rgb(2, 231, 235);
+    border-bottom: 2px solid rgb(2, 231, 235);
+    
+}
+
+#pricing .plan__section--middle {
+    width: calc(100% / 3);
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(100 21 255);
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
 }
 
 
