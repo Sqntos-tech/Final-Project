@@ -679,6 +679,9 @@ PRICING
     flex-direction: column;
     align-items: center;
     position: relative;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
 }
 
 
@@ -736,10 +739,16 @@ PRICING
     letter-spacing: 0.025em;
 }
 
-.feature {
+.plan__feature-item {
     margin-top: 1.25rem;
     font-weight: 500;
     color: rgb(113 128 150);
+}
+
+.plan__action {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding: 2rem 1rem;
 }
 
 
