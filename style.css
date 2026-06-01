@@ -796,7 +796,7 @@ PRICING
 
 
 .plan__action {
-    padding: 2rem 1rem;
+    padding: 2rem 4rem;
     width: 100%;
 }
 
@@ -806,7 +806,7 @@ PRICING
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-size: 0.875rem;
-    padding: 0.875rem 2rem;
+    padding: 1.2rem 1rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     cursor: pointer;
@@ -815,6 +815,34 @@ PRICING
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
+.btn__middle {
+    width: 100%;
+    border-radius: 9999px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.875rem;
+    padding: 1.2rem 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+}
+
+.btn__red {
+    width: 100%;
+    border-radius: 9999px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.875rem;
+    padding: 1.2rem 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
 
 
 
