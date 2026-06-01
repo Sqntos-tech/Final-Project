@@ -670,6 +670,7 @@ PRICING
     justify-content: space-between;
     gap: 32px;
     margin-top: 64px;
+    width: 100%;
 }
 
 
@@ -745,9 +746,10 @@ PRICING
     display: flex;
     flex-direction: column;
     border-top: 2px solid #e5e7eb;
-    border-bottom:2px solid #e5e7eb;
+    border-bottom: 2px solid #e5e7eb;
     padding: 2rem;
 }
+
 
 .main__feature {
     margin-top: 0px;
