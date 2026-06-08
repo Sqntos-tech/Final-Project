@@ -687,7 +687,6 @@ PRICING
     position: relative;
     box-sizing: border-box;
     border-width: 1px;
-    
 }
 
 #pricing .plan__section--middle {
@@ -732,7 +731,7 @@ PRICING
 .name-m {
     font-size: 1.25rem;
     font-weight: 700;
-    color: #fff;
+    color: rgb(237 242 247);
 }
 
 .price {
@@ -742,7 +741,7 @@ PRICING
 .price-m {
     font-size: 3rem;
     font-weight: 700;
-    color: #fff;
+    color: rgb(237 242 247);
 }
 
 .duration {
@@ -753,7 +752,7 @@ PRICING
 .duration-m {
     font-weight: 700;
     letter-spacing: 0.1em;
-    color: #fff;
+    color: rgb(237 242 247);
 }
 
 
@@ -766,6 +765,14 @@ PRICING
     padding: 2rem;
 }
 
+.plan__feature-m {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid rgb(102 126 234);
+    border-bottom: 2px solid rgb(102 126 234);
+    padding: 2rem;
+}
 
 .main__feature {
     margin-top: 0px;
@@ -778,7 +785,7 @@ PRICING
     font-size: 1.25rem;
     font-weight: 700;
     letter-spacing: 0.025em;
-    color: #fff;
+    color: rgb(237 242 247);
 }
 
 
@@ -791,7 +798,7 @@ PRICING
 .plan__feature-item-m {
     margin-top: 1.25rem;
     font-weight: 500;
-    color: #fff;
+    color: rgb(237 242 247);
 }
 
 
