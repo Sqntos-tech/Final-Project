@@ -79,7 +79,7 @@ img {
 }
 
 .nav__logo--title {
-    margin: 0px 24px;
+    margin: 5px;
     padding: 0px 0px 4px;
     font-size: 1.5rem;
     font-weight: 800;
@@ -154,9 +154,10 @@ img {
     text-align: center;
     border: none;
     color: #6415FF;
+    display: none;
 }
 
-.btn__menu--svg {
+.btn__menu--svg, .btn__menu {
     display: none;
 }
 
@@ -249,6 +250,7 @@ header .nav__row {
     font-weight: 900;
     line-height: 1.2;
     margin-bottom: 1.5rem;
+    color: rgb(26 32 44);
 }
 
 .nav__p {
@@ -714,6 +716,17 @@ PRICING
     background: linear-gradient(128deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
+.plan__highlights {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
 
 .plan__header {
     display: flex;
@@ -970,12 +983,59 @@ TESTIMONIAL
 
 
 .rating__controls {
+    display: flex;
+}
+
+
+.rating__control {
     margin-left: 0.75rem;
     margin-right: 0.75rem;
     border-radius: 9999px;
     padding: 1rem;
+    border: none;
+    cursor: pointer;
     background-color: rgb(237 242 247);
+    color: rgb(100 21 255);
 }
+
+
+
+/* 
+
+FAQS
+
+*/
+
+
+#faqs .faqs__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#faqs .section__tag {
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+
+#faqs .section__title {
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+}
+
+
+#faqs .section__para {
+    text-align: center;
+    margin-top: 1rem;
+    max-width: 36rem;
+    color: rgb(124 139 161);
+}
+
 
 
 
@@ -988,7 +1048,7 @@ TESTIMONIAL
   .nav__links {
     display: none;
   }
-  .btn__menu--svg {
+  .btn__menu, .btn__menu--svg {
     display: block;
   }
 }
