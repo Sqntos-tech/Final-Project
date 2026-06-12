@@ -29,8 +29,10 @@ nav {
 
 .container {
     display: flex;
-    padding: 80px 0;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
+
 
 .nav__row {
    display: flex;
@@ -1036,6 +1038,30 @@ FAQS
     color: rgb(124 139 161);
 }
 
+
+.faqs__questions--container {
+    position: relative;
+    margin-top: 3rem;
+    max-width: 56rem;
+}
+
+
+.faqs__questions {
+    margin-top: 1.25rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    background-color: rgb(237 242 247);
+    color: rgb(45 55 72);
+    padding: 16px 40px;
+}
+
+
+.faqs__question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+}
 
 
 
