@@ -1042,6 +1042,7 @@ FAQS
 .faqs__questions--container {
     position: relative;
     margin-top: 3rem;
+    width: 100%;
     max-width: 56rem;
 }
 
@@ -1052,7 +1053,7 @@ FAQS
     border-radius: 0.5rem;
     background-color: rgb(237 242 247);
     color: rgb(45 55 72);
-    padding: 16px 40px;
+    padding: 24px 40px;
 }
 
 
@@ -1060,7 +1061,13 @@ FAQS
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 48px;
+    gap: 100px;
+}
+
+
+.faqs__question--text {
+    font-size: 1.125rem;
+    font-weight: 600;
 }
 
 
