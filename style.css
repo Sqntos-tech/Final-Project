@@ -1087,8 +1087,37 @@ FOOTER
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-color: rgb(100 21 255);
 }
 
+
+.link {
+    margin-top: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.link__title {
+    color: rgb(237 242 247);
+    font-weight: 700;
+    font-size: inherit;
+}
+
+
+.link__name {
+    list-style-type: none;
+    color: rgb(237 242 247);
+    margin-top: 0.75rem;
+    padding-bottom: 0.25rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+
+.link__list {
+    margin-top: 1.5rem;
+}
 
 
 
