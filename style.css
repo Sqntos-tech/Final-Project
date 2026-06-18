@@ -1099,7 +1099,7 @@ FOOTER
 
 
 .link__title {
-    color: rgb(237 242 247);
+    color: rgb(247 250 252);
     font-weight: 700;
     font-size: inherit;
 }
@@ -1107,7 +1107,7 @@ FOOTER
 
 .link__name {
     list-style-type: none;
-    color: rgb(237 242 247);
+    color: rgb(247 250 252);
     margin-top: 0.75rem;
     padding-bottom: 0.25rem;
     font-size: 0.875rem;
@@ -1119,6 +1119,11 @@ FOOTER
     margin-top: 1.5rem;
 }
 
+
+
+.divider {
+    border-bottom: 2px;
+}
 
 
 
