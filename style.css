@@ -1087,7 +1087,6 @@ FOOTER
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: rgb(100 21 255);
 }
 
 
@@ -1122,9 +1121,64 @@ FOOTER
 
 
 .divider {
-    border-bottom: 2px;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(116 44 255);
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
+
+footer {
+    background-color: rgb(100 21 255);
+}
+
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+}
+
+
+.footer__logo--img {
+    width: 2rem;
+}
+
+
+.footer__logo p {
+    color: rgb(247 250 252);
+    margin-left: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+}
+
+
+.footer__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.footer__copyright {
+    color:#fff;
+}
+
+
+.footer__social-link {
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer__social-links {
+    display: flex;
+    gap: 12px;
+}
 
 
 
