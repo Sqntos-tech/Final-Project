@@ -1258,7 +1258,7 @@ footer {
     flex-direction: column;
   }
 
-#quality .nav__row {
+  #quality .nav__row {
     flex-direction: column-reverse;
   }
 
@@ -1280,7 +1280,37 @@ footer {
     font-size: 0.9rem;
     width: 130%;
   }
+
+  #quality .btn {
+    margin-right: 0;
+  }
   
+
+  #steps .nav__row {
+    flex-direction: column;
+    text-align: center;
+    
+  }
+
+  .steps__img {
+    width: 130%;
+    
+  }
+
+  .steps__section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .steps__text {
+    margin-top: 0.75em;
+  }
+
+  .steps__list--number {
+    margin-right: 0;
+  }
+
+
 
 }
 
