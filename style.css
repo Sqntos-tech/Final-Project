@@ -676,6 +676,7 @@ PRICING
     gap: 32px;
     margin-top: 64px;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 
@@ -1186,6 +1187,7 @@ footer {
 
 
 /* RESPONSIVE */
+
 @media (max-width: 1024px) {
   .nav__links {
     display: none;
@@ -1195,7 +1197,16 @@ footer {
   }
 }
 
+
+/* TABLETS */
+
 @media (max-width: 768px) {
+
+  .header__description {
+    padding: 0 24px;
+    align-items: center;
+  }
+
   .row,
   header .nav__row {
     flex-direction: column;
@@ -1211,8 +1222,20 @@ footer {
   }
 
   .header__email {
-    flex-direction: column;
-    border-radius: 1rem;
+    border-radius: 2rem;
     height: auto;
   }
+
+  .c__logo {
+    align-items: center;
+    padding: 5rem;
+  }
+
+  
+}
+
+/* LARGE/SMALL PHONES */
+
+@media (max-width: 550px) {
+
 }
