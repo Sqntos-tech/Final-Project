@@ -1394,6 +1394,12 @@ footer {
     width: calc(100% / 3);
     flex-wrap: wrap;
     width: 50%;
+    justify-content: center;
+  }
+
+  #footer .link {
+    width: auto;
+    text-align: center;
   }
 
   
