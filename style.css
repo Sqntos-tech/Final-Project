@@ -1348,8 +1348,19 @@ footer {
 
   .values__section {
     width: 145%;
+
   }
 
+  #values .value {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #testimonials .values__img--wrapper {
+    width: 100%;
+  }
 
 }
 
