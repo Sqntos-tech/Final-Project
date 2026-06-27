@@ -1393,7 +1393,7 @@ footer {
   #footer .links {
     width: calc(100% / 3);
     flex-wrap: wrap;
-    width: 50%;
+    width: 100%;
     justify-content: center;
   }
 
