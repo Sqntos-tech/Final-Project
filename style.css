@@ -1388,19 +1388,27 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
   }
 
   #footer .links {
     flex-wrap: wrap;
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: flex-start;
-    
   }
 
   #footer .link {
-    width: auto;
+    width: 33.33%;
     text-align: left;
+  }
+
+  #footer .footer__bottom {
+    flex-direction: column;
+  }
+
+  #footer .footer__copyright {
+    
   }
 
   
