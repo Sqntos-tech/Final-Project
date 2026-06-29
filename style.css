@@ -1391,15 +1391,16 @@ footer {
   }
 
   #footer .links {
-    width: calc(100% / 3);
     flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    
   }
 
   #footer .link {
     width: auto;
-    text-align: center;
+    text-align: left;
   }
 
   
